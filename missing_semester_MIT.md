@@ -7,49 +7,42 @@ Link: [https://missing.csail.mit.edu/](https://missing.csail.mit.edu/)
 Open the man page of ls
 
 ```
-`
-man ls
+$ man ls
 ```
 
 Clear prompt and screen:
 
 ```
-`
-ctrl l
+$ ctrl l
 ```
 
 Stream to file:
 
 ```
-`
-echo "Hello world" > test_file.txt
+$ echo "Hello world" > test_file.txt
 ```
 
 Append to file:
 
 ```
-`
-echo "Hello World" >> test_file.txt
+$ echo "Hello World" >> test_file.txt
 ```
 
 Tail and Head:
 
 ```
-`
-tail -n1 test_file.txt
-head -n1 test_file.txt
+$ tail -n1 test_file.txt
+$ head -n1 test_file.txt
 ```
 
 Pipe:
 
 ```
-`
-ls -la / | tail -n1
+$ ls -la / | tail -n1
 ```
 
 Open any file with its corresponding program:
 
 ```
-`
-xdg-open anydocument.pdf
+$ xdg-open anydocument.pdf
 ```
