@@ -46,3 +46,46 @@ Open any file with its corresponding program:
 ```
 $ xdg-open anydocument.pdf
 ```
+
+Show nice manual and its us of a cmd:
+
+```
+$ tldr ls
+```
+
+Finding files
+
+```
+$ tldr ls
+```
+
+
+Finding files
+
+```
+# Find all directories named src
+$ find . -name src -type d
+# Find all python files that have a folder named test in their path
+$ find . -path '*/test/*.py' -type f
+
+# Delete all files with .tmp extension
+$ find . -name '*.tmp' -exec rm {} \;
+# Find all PNG files and convert them to JPG
+$ find . -name '*.png' -exec convert {}{}.jpb \;
+```
+
+Finding in files with ripgrep
+
+```
+# Fin all python files where we imported pandas
+$ rp -t py 'import pandas'
+```
+
+
+Finding Commnands in the shell history
+
+```
+$ history | grep touch
+
+# ctrl+R 
+```
